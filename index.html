@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>DUNIA INTERNET - Pendaftaran WiFi Resmi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-animate-overlay"></div>
+    <canvas id="particle-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo">🌐 WIFI AGENCY</a>
+            <div class="menu-toggle" id="mobile-toggle">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="navbar-menu" id="nav-menu">
+                <li class="navbar-item"><a href="#home">Home</a></li>
+                <li class="navbar-item"><a href="#paket">Pilihan Paket</a></li>
+                <li class="navbar-item"><a href="#formulir-pendaftaran" class="nav-btn">Daftar Sekarang</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-badge">⚡ INTEGRATED INTERNET SERVICE AGENT</div>
+        <h1>DUNIA INTERNET</h1>
+        <p class="hero-description">
+            Platform pendaftaran pemasangan WiFi resmi terintegrasi. Bandingkan tarif terbaik, pilih provider favorit, langsung pasang hari ini.
+        </p>
+        <div class="slide-text-container">
+            <span class="slide-word word-1">Koneksi</span>
+            <span class="slide-word word-2">Tanpa</span>
+            <span class="slide-word word-3">Batas</span>
+        </div>
+    </section>
+
+    <div class="container">
+        
+        <h2 class="moving-section-title" id="paket">Pilihan Paket <span>WiFi Terbaik</span></h2>
+        
+        <div class="provider-grid">
+            <!-- Kartu provider akan di-generate otomatis oleh JavaScript dari config.json -->
+        </div>
+
+        <div class="form-container scroll-animate" id="formulir-pendaftaran">
+            <h3>Formulir Pendaftaran <span id="nama-provider-label">WiFi</span></h3>
+            
+            <form id="registrationForm" onsubmit="handleFormSubmit(event)">
+                <input type="hidden" id="provider_pilihan" value="">
+
+                <div class="form-group">
+                    <label for="paket_detail">📡 Pilih Varian Kecepatan & Tarif Harga</label>
+                    <select id="paket_detail" class="form-control highlight-select" required>
+                        <option value="">-- Silahkan Pilih Provider Terlebih Dahulu --</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="nama_lengkap">👤 Nama Lengkap Sesuai KTP</label>
+                    <input type="text" id="nama_lengkap" class="form-control" placeholder="Masukkan nama lengkap Anda" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="alamat_lengkap">🏠 Alamat Lengkap Pemasangan</label>
+                    <input type="text" id="alamat_lengkap" class="form-control" placeholder="Nama jalan, nomor rumah, cluster, dll" required>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="rt_no">RT</label>
+                        <input type="text" id="rt_no" class="form-control" placeholder="000" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rw_no">RW</label>
+                        <input type="text" id="rw_no" class="form-control" placeholder="000" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="kel_kec">🏘️ Kelurahan / Kecamatan</label>
+                    <input type="text" id="kel_kec" class="form-control" placeholder="Masukkan kelurahan & kecamatan" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="kota_kab">🌆 Kota / Kabupaten</label>
+                    <input type="text" id="kota_kab" class="form-control" placeholder="Masukkan kota tempat tinggal" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="maps_link">📍 Link Share Location / Google Maps</label>
+                    <input type="text" id="maps_link" class="form-control" placeholder="http://maps.google.com/...">
+                </div>
+
+                <button type="submit" class="btn-submit-wa">
+                    📲 Kirim Data Pendaftaran via WhatsApp
+                </button>
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Agen Resmi Pemasangan WiFi Terintegrasi. Proses Cepat & Terpercaya.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+{
+    "whatsappNumber": "6288991652063",
+    "providers": {
+        "XL Satu": {
+            "badge": "Harga Flat",
+            "badgeClass": "xl-bg",
+            "nameClass": "xl",
+            "packages": [
+                { "speed": "Starter 20 Mbps", "price": "Rp 205.350/bulan + (biaya pemasangan Rp 111.000)" },
+                { "speed": "Smart 250 Mbps (+STB)", "price": "Rp 254.190/bulan + (biaya pemasangan gratis)" },
+                { "speed": "Family 350 Mbps (+STB)", "price": "Rp 309.690/bulan + (biaya pemasangan gratis)" },
+                { "speed": "Super User 400 Mbps (+STB)", "price": "Rp 331.890/bulan + (biaya pemasangan gratis)" },
+                { "speed": "Ultra 600 Mbps (+STB)", "price": "Rp 555.000/bulan + (biaya pemasangan gratis)" },
+                { "speed": "Super User 1 Gbps (+STB)", "price": "Rp 999.000/bulan + (biaya pemasangan gratis)" },
+                { "speed": "Basic Starter 30 Mbps (Bonus kuota 2 nomor XL 8GB)", "price": "Rp 231.990/bulan + (biaya pasang Rp 111.000)" },
+                { "speed": "Basic Smart 75 Mbps (Bonus kuota 2 nomor XL 10GB)", "price": "Rp 276.390/bulan + (biaya pasang gratis)" }
+            ]
+        },
+        "IndiHome": {
+            "badge": "Promo",
+            "badgeClass": "indihome-bg",
+            "nameClass": "indihome",
+            "packages": [
+                { "speed": "Internet Only: 20 Mbps", "price": "Rp 194.250/bulan + (Deposit 1 bulan)" },
+                { "speed": "Internet Only: 50 Mbps", "price": "Rp 260.300/bulan + (Pasang Rp 99.000)" },
+                { "speed": "Internet Only: 75 Mbps", "price": "Rp 282.500/bulan + (Pasang Rp 99.000)" },
+                { "speed": "Internet Only: 150 Mbps", "price": "Rp 365.750/bulan + (Pasang Rp 99.000)" },
+                { "speed": "One Dynamic: 20 Mbps/30Gb", "price": "Rp 227.500/bulan + (Deposit 1 bulan)" },
+                { "speed": "One Dynamic: 50 Mbps/15Gb", "price": "Rp 304.700/bulan + (Pasang Rp 99.000)" },
+                { "speed": "One Dynamic: 50 Mbps/30Gb", "price": "Rp 332.450/bulan + (Pasang Rp 99.000)" },
+                { "speed": "One Dynamic: 75 Mbps/15Gb", "price": "Rp 321.350/bulan + (Pasang Rp 99.000)" },
+                { "speed": "One Dynamic: 75 Mbps/30Gb", "price": "Rp 349.100/bulan + (Pasang Rp 99.000)" },
+                { "speed": "One Dynamic: 100 Mbps/15Gb", "price": "Rp 365.750/bulan + (Pasang Rp 99.000)" }
+            ]
+        },
+        "MyRepublic": {
+            "badge": "Value",
+            "badgeClass": "myrep-bg",
+            "nameClass": "myrep",
+            "packages": [
+                { "speed": "Sahabat 75 Mbps", "price": "Rp 205.000/bulan" },
+                { "speed": "Neo 200 Mbps", "price": "Rp 233.100/bulan" },
+                { "speed": "Velo 300 Mbps", "price": "Rp 277.500/bulan" },
+                { "speed": "Nexus 400 Mbps", "price": "Rp 333.000/bulan" },
+                { "speed": "Prime 500 Mbps", "price": "Rp 555.000/bulan" },
+                { "speed": "MyGamers silver 350 Mbps", "price": "Rp 444.500/bulan" },
+                { "speed": "MyGamers gold 500 Mbps", "price": "Rp 610.500/bulan" },
+                { "speed": "MyGamers diamond 750 Mbps", "price": "Rp 777.000/bulan" },
+                { "speed": "MyGamers platinum 1 Gbps", "price": "Rp 999.000/bulan" }
+            ]
+        },
+        "CBN Fiber": {
+            "badge": "Simetris",
+            "badgeClass": "cbn-bg",
+            "nameClass": "cbn",
+            "packages": [
+                { "speed": "Fiber 20 (20 Mbps)", "price": "Rp 193.140/bulan" },
+                { "speed": "Fiber 20 + Dramaflix (70 Mbps)", "price": "Rp 209.790/bulan" },
+                { "speed": "Fiber 30 + Dramaflix (110 Mbps)", "price": "Rp 243.090/bulan" },
+                { "speed": "Fiber 50 (100 Mbps)", "price": "Rp 259.740/bulan" },
+                { "speed": "Fiber 50 + Dramaflix (150 Mbps)", "price": "Rp 276.390/bulan" },
+                { "speed": "Fiber 100 (200 Mbps)", "price": "Rp 481.740/bulan" },
+                { "speed": "Fiber 100 + Dramaflix (250 Mbps)", "price": "Rp 498.390/bulan" },
+                { "speed": "Dens Tv (STB V.3)", "price": "Rp 61.000/bulan" }
+            ]
+        },
+        "Indosat HiFi": {
+            "badge": "Promo Kuat",
+            "badgeClass": "indosat-bg",
+            "nameClass": "indosat",
+            "packages": [
+                { "speed": "HiFi Lite 20 Mbps", "price": "Rp 205.350/bulan" },
+                { "speed": "Paket Up To 100 Mbps", "price": "Rp 220.890/bulan" },
+                { "speed": "Paket Up To 300 Mbps", "price": "Rp 331.890/bulan" },
+                { "speed": "Paket Up To 500 Mbps", "price": "Rp 442.890/bulan" }
+            ]
+        },
+        "idPLAY": {
+            "badge": "Flat Selamanya",
+            "badgeClass": "idplay-bg",
+            "nameClass": "idplay",
+            "packages": [
+                { "speed": "SimplyFun 20 Mbps", "price": "Rp 198.960/bulan" },
+                { "speed": "SuperFun 30 Mbps", "price": "Rp 265.290/bulan" },
+                { "speed": "FamilyFun 50 Mbps", "price": "Rp 309.690/bulan" },
+                { "speed": "Fun Tastic 75 Mbps", "price": "Rp 331.890/bulan" },
+                { "speed": "Ultra Fun 100 Mbps", "price": "Rp 354.090/bulan" },
+                { "speed": "Ultimate Fun 200 Mbps", "price": "Rp 409.590/bulan" }
+            ]
+        }
+    }
+}
